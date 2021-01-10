@@ -1,0 +1,20 @@
+@font-face {
+	src: ../font/Rubik-VariableFont_wght.ttf;
+	font-family: "Rubik";
+	font-weight: normal;
+}
+
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: italic;	
+	font-family: "Rubik";	
+}
+
+.paragraph p {
+	font-family: "Rubik";
+}
+
+.paragraph-two p {
+	font-family: "Rubik";
+}
