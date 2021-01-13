@@ -41,12 +41,11 @@
 
 .information {
 	width: 1440px;
-	height: 847px;
+	height:847px;
 }
 
 .information-container {
 	width: 1280px;
-	height: 637px;
 	font-family: Helvetica;
 	font-size: 50px;
 	padding-left: 80px;
@@ -65,7 +64,7 @@
 	background-position: 80px 77px;
 }
 
-.footer div {
+.footer h1 {
 	font-family: Helvetica;
 	font-size: 50px;
 	line-height: 200px;
