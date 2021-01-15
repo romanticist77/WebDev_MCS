@@ -29,7 +29,6 @@
     font-size: 20px;
     line-height: 23px;
     padding-left: 33px;
-    padding-top: 33px;
 }
 
 section h1 {
@@ -58,21 +57,22 @@ footer {
 	position: absolute;
 	top: 52px;
 	left: 70px;
+	white-space: pre;
+	text-align: justify;
 }
 
 .recipe2 {
 	position: absolute;
 	top: 52px;
 	left: 520px;
+	white-space: pre;
+	text-align: justify;
 }
 
 .recipe3 {
 	position: absolute;
 	top: 52px;
 	right: 70px;
+	white-space: pre;
+	text-align: justify;
 }
-
-
-
-
-/* 1024*1440
