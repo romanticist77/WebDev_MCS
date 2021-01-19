@@ -2,7 +2,6 @@
 
 .header {
 	height: 60px;
-	width: 1440px;
 	background-color: #FE1A19;
 	font-family: Helvetica;
 	font-size: 20px;
@@ -14,7 +13,6 @@
 
 .main {
 	height: 904px;
-	width: 1440px;
 	background-color: white;
 	text-align: center;
 	padding-top: 52px;
@@ -37,10 +35,15 @@
 .main h1 {
 	font-family: Helvetica;
 	font-weight: bold;
+	padding-bottom: 18px;
 }
 
-.main ul {
+.main ul, .main h2 {
 	font-family: Times New Roman;
+}
+
+.main h2 {
+	padding-top: 23px;
 }
 
 .middle {
@@ -50,7 +53,6 @@
 
 .footer {
 	height: 60px;
-	width: 1440px;
 	background-color: #FE1A19;
 	font-family: Helvetica;
 	font-size: 20px;
