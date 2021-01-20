@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+.header {
+	width: 1440px;
+	height: 140px;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 140px;
+	color: #E50043;
+	border: 1px red solid;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.header-container a {
+	color: #E50043;
+	border: 1px red solid;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 140px;
+	right: 50px;
+}
+
+.header-container h1 {
+	text-align: left;
+	margin-left: 50px;
+}
+
+.middle-link {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+/* .header-container a {
+	color: #E50043;
+	border: 1px red solid;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 140px;
+	right: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+ .header-container h1 {
+	text-align: left;
+	border: 1px red solid;
+	box-sizing: border-box;
+	margin-left: 50px;
+}
