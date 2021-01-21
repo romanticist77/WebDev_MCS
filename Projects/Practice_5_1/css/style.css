@@ -1,33 +1,41 @@
-@import url(reset.css);
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html { 
+	font-size: 10px;
+}
 
 .header {
-	height: 60px;
+	height: 6rem;
 	background-color: #FE1A19;
 	font-family: Helvetica;
-	font-size: 20px;
-	line-height: 60px;
+	font-size: 2rem;
+	line-height: 6rem;
 	color: white;
-	padding-left: 20px;
+	padding-left: 2rem;
 	font-weight: bold;
 }
 
 .main {
-	height: 904px;
 	background-color: white;
 	text-align: center;
-	padding-top: 52px;
+	padding-top: 5.2rem;
+	padding-bottom: 5.2rem;
 	box-sizing: border-box;
 	font-size: 0;
 }
 
 .main section {
-	width: 400px;
-	border: 5px solid #E5E000;
+	width: 40rem;
+	border: .5rem solid #E5E000;
 	box-sizing: border-box;
-	border-radius: 30px;
-	font-size: 20px;
-	line-height: 23px;
-	padding: 33px;
+	border-radius: 3rem;
+	font-size: 2rem;
+	line-height: 2.3rem;
+	padding: 3.3rem;
 	display: inline-block;
 	text-align: left;
 }
@@ -35,7 +43,7 @@
 .main h1 {
 	font-family: Helvetica;
 	font-weight: bold;
-	padding-bottom: 18px;
+	padding-bottom: 1.8rem;
 }
 
 .main ul, .main h2 {
@@ -43,21 +51,21 @@
 }
 
 .main h2 {
-	padding-top: 23px;
+	padding-top: 2.3rem;
 }
 
 .middle {
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 5.0rem;
+	margin-left: 5.0rem;
 }
 
 .footer {
-	height: 60px;
+	height: 6.0rem;
 	background-color: #FE1A19;
 	font-family: Helvetica;
-	font-size: 20px;
-	line-height: 60px;
+	font-size: 2.0rem;
+	line-height: 6.0rem;
 	color: white;
-	padding-left: 20px;
+	padding-left: 2.0rem;
 	font-weight: bold;
 }
