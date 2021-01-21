@@ -1,35 +1,139 @@
 @import url(reset.css);
 
-.header {
-	width: 1440px;
-	height: 140px;
-	font-family: Arial;
-	font-size: 50px;
-	line-height: 140px;
-	color: #E50043;
-	border: 1px red solid;
+* {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+.header {
+	background-color: #FFFFFF;
+	width: 144rem;
+	height: 14rem;
+	font-family: Arial;
+	font-size: 5rem;
+	line-height: 14rem;
+	color: #E50043;
+	border: 0.1rem red solid;
 	text-align: right;
+	position: fixed;
 }
 
 .header-container a {
 	color: #E50043;
-	border: 1px red solid;
-	box-sizing: border-box;
+	border: 0.1rem red solid;
 	position: relative;
-	bottom: 140px;
-	right: 50px;
+	bottom: 14rem;
+	right: 5rem;
 }
 
 .header-container h1 {
 	text-align: left;
-	margin-left: 50px;
+	margin-left: 5rem;
 }
 
 .middle-link {
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
 }
+
+.main {
+	padding-top: 14rem;
+	width: 144rem;
+	
+}
+
+.hero-container {
+	background-image: url(../img/evian_origins_logo.png);
+	background-position: center;
+	height: 95rem;
+	width: 144rem;
+}
+
+.info {
+	background-color: #FFFFFF;
+	font-family: Arial;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+.text-info {
+	border: 0.3rem solid #F8BFC7;
+	border-radius: 2rem;
+	width: 104rem;
+	height: 28rem;
+	letter-spacing: 0.05rem;
+	margin: auto;
+	margin: 15rem;
+}
+
+.type1 {
+	background-image: url(../img/wang.png);
+	height: 86.3rem;
+	width: 28.1rem;
+	background-repeat: no-repeat;
+	padding-top: 86.3rem;
+	padding-bottom: 5.8rem;
+	text-align: center;
+}
+
+.type2 {
+	background-image: url(../img/blue.png);
+	height: 86.3rem;
+	width: 28.1rem;
+	background-repeat: no-repeat;
+	padding-top: 86.3rem;
+	padding-bottom: 5.8rem;
+	text-align: center;
+}
+
+.type3 {
+	background-image: url(../img/chiara.png);
+	height: 86.3rem;
+	width: 28.1rem;
+	background-repeat: no-repeat;
+	padding-top: 86.3rem;
+	padding-bottom: 5.8rem;
+	text-align: center;
+}
+
+.photo {
+	margin: auto;
+}
+
+.text-info.1 {
+
+}
+
+.footer {
+	background-color: #F8BFC7;
+	width: 144rem;
+	height: 14rem;
+	font-family: Arial;
+	font-size: 5rem;
+	line-height: 14rem;
+	color: #FFFFFF;
+	border: 0.1rem red solid;
+	text-align: left;
+	padding-left: 50px;
+}
+
+
+
+
+
+
+
+
 
 /* .header-container a {
 	color: #E50043;
