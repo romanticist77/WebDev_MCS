@@ -60,8 +60,8 @@ html {
 	font-size: 2.5rem;
 	line-height: 2.9rem;
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 
@@ -72,45 +72,58 @@ html {
 	width: 104rem;
 	height: 28rem;
 	letter-spacing: 0.05rem;
-	margin: auto;
 	margin: 15rem;
+	padding: 2.4rem;
 }
+
+.text-info h1, p {
+	padding-bottom: 2.9rem;
+}
+
 
 .type1 {
 	background-image: url(../img/wang.png);
 	height: 86.3rem;
 	width: 28.1rem;
-	background-repeat: no-repeat;
-	padding-top: 86.3rem;
-	padding-bottom: 5.8rem;
-	text-align: center;
 }
 
 .type2 {
 	background-image: url(../img/blue.png);
 	height: 86.3rem;
-	width: 28.1rem;
-	background-repeat: no-repeat;
-	padding-top: 86.3rem;
-	padding-bottom: 5.8rem;
-	text-align: center;
+	width: 27.9rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
 }
 
 .type3 {
 	background-image: url(../img/chiara.png);
 	height: 86.3rem;
-	width: 28.1rem;
-	background-repeat: no-repeat;
-	padding-top: 86.3rem;
-	padding-bottom: 5.8rem;
-	text-align: center;
+	width: 28.0rem;
 }
 
 .photo {
-	margin: auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 90.5rem;
 }
 
-.text-info.1 {
+.clear {
+	clear: both;
+}
+
+img {
+	float: left;
+	padding: 0 8rem;
+}
+
+.mini-photo {
+	padding: 3rem;
+}
+
+/*.mini-photo {
+	background-image: url(../img/glass.png);
+	background-repeat: no-repeat;
+}
 
 }
 
