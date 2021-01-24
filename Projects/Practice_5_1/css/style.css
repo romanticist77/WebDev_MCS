@@ -11,22 +11,33 @@ html {
 	font-size: 10px;
 }
 
+:root {
+  --font-primary: Helvetica;
+  --font-secondary: Times New Roman;
+  --font-size-primarily: 2rem;
+  --padding-primarily: 2rem;
+  --margin-middle: 5rem;
+  --height-primarily: 6rem;
+  --color-first: white;
+  --color-second: #FE1A19;
+  --title-weight: bold;
+}
+
 .header {
-	height: 6rem;
-	background-color: #FE1A19;
-	font-family: Helvetica;
-	font-size: 2rem;
-	line-height: 6rem;
-	color: white;
-	padding-left: 2rem;
-	font-weight: bold;
+	height: var(--height-primarily);
+	background-color: var(--color-second);
+	font-family: var(--font-primary);
+	font-size: var(--font-size-primarily);
+	line-height: var(--height-primarily);
+	color: var(--color-first);
+	padding-left: var(--padding-primarily);
+	font-weight: var(--title-weight);
 }
 
 .main {
-	background-color: white;
+	background-color: var(-color-first);
 	text-align: center;
-	padding-top: 5.2rem;
-	padding-bottom: 5.2rem;
+	padding: 5.2rem 0;
 	font-size: 0;
 }
 
@@ -34,7 +45,7 @@ html {
 	width: 40rem;
 	border: .5rem solid #E5E000;
 	border-radius: 3rem;
-	font-size: 2rem;
+	font-size: var(--font-size-primarily);
 	line-height: 2.3rem;
 	padding: 3.3rem;
 	display: inline-block;
@@ -42,13 +53,13 @@ html {
 }
 
 .main h1 {
-	font-family: Helvetica;
-	font-weight: bold;
+	font-family: var(--font-primary);
+	font-weight: var(--title-weight);
 	padding-bottom: 1.8rem;
 }
 
 .main ul, .main h2 {
-	font-family: Times New Roman;
+	font-family: var(--font-secondary);
 }
 
 .main h2 {
@@ -56,17 +67,17 @@ html {
 }
 
 .middle {
-	margin-right: 5.0rem;
-	margin-left: 5.0rem;
+	margin-right: var(--margin-middle);
+	margin-left: var(--margin-middle);
 }
 
 .footer {
-	height: 6.0rem;
-	background-color: #FE1A19;
-	font-family: Helvetica;
-	font-size: 2.0rem;
-	line-height: 6.0rem;
-	color: white;
-	padding-left: 2.0rem;
-	font-weight: bold;
+	height: var(--height-primarily);
+	background-color: var(--color-second);
+	font-family: var(--font-primary);
+	font-size: var(--font-size-primarily);
+	line-height: var(--height-primarily);
+	color: var(--color-first);
+	padding-left: var(--padding-primarily);
+	font-weight: var(--title-weight);
 }
