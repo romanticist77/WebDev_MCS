@@ -1,0 +1,165 @@
+@import url(reset.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/* Хедер */
+
+.header {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 14rem;
+	font-family: Arial;
+	font-size: 5rem;
+	line-height: 14rem;
+	color: #E50043;
+	position: fixed;
+
+	
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.span {
+	margin-right: 5rem;
+}
+
+
+.span a {
+	color: #E50043;
+	text-decoration: none;
+}
+
+.header-container h1 {
+	margin-left: 5rem;
+}
+
+.middle-link {
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+
+/* Основной блок */
+
+.main {
+	padding-top: 14rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Секция 1 */
+
+.hero-container {
+	background-image: url(../img/evian_origins_logo.png);
+	background-position: center;
+	height: 95rem;
+	width: 144rem;
+	font-family: Arial;
+	font-size: 10rem;
+	color: #E50043;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Секция 2 */
+
+.info {
+	background-color: #FFFFFF;
+	font-family: Arial;
+	font-size: 2.5rem;
+	line-height: 2.9rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.div {
+	width: 104rem;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+/*разделы с текстом */
+
+.text-info {
+	border: 0.3rem solid #F8BFC7;
+	border-radius: 2rem;
+	width: 104rem;
+	height: 28rem;
+	margin: 15rem;
+	padding: 2.4rem;
+}
+
+.first h1, p {
+	letter-spacing: 0.12rem;
+}
+
+.text-info h1, p, ul {
+	padding-bottom: 2.9rem;
+}
+
+/*разделы с фото */
+
+.type1 {
+	background-image: url(../img/wang.png);
+	height: 86.3rem;
+	width: 28.1rem;
+}
+
+.type2 {
+	background-image: url(../img/blue.png);
+	height: 86.3rem;
+	width: 27.9rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
+}
+
+.type3 {
+	background-image: url(../img/chiara.png);
+	height: 86.3rem;
+	width: 28.0rem;
+}
+
+.photo {
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 90.5rem;
+}
+/* крайний див */
+
+img {
+	float: left;
+	padding: 0 8rem;
+}
+
+.second {
+	padding: 3rem;
+	letter-spacing: 0.05rem;
+}
+
+/* футер */
+
+.footer {
+	background-color: #F8BFC7;
+	width: 100%;
+	height: 14rem;
+	font-family: Arial;
+	font-size: 5rem;
+	line-height: 14rem;
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 50px;
+}
