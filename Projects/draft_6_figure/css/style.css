@@ -27,9 +27,8 @@ html {
 }
 
 .span {
-	margin-right: 5rem;
+	margin: 0 5rem 0 auto;
 	display: flex;
-	margin-left: auto;
 }
 
 
