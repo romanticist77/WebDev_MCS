@@ -31,7 +31,6 @@ html {
 	display: flex;
 }
 
-
 .span a {
 	color: #E50043;
 	text-decoration: none;
@@ -63,9 +62,9 @@ html {
 .hero-container {
 	background-image: url(../img/evian_origins_logo.png);
 	background-position: center;
+	background-size: cover;
 	height: 95rem;
 	width: 100%;
-	background-repeat: no-repeat;
 	font-size: 10rem;
 	color: #E50043;
 	display: flex;
@@ -74,7 +73,6 @@ html {
 }
 
 /* Секция 2 */
-
 
 
 .div {
@@ -93,11 +91,11 @@ html {
 	margin: 15rem 0;
 }
 
-.first h1, p {
+.first h1, .first p {
 	letter-spacing: 0.12rem;
 }
 
-.text-info h1, p, ul {
+.text-info h1, .text-info p, .text-info ul {
 	padding-bottom: 2.9rem;
 }
 
@@ -119,10 +117,16 @@ html {
 	width: 28.0rem;
 }
 
+figcaption {
+	margin: 4.2rem 0 0;
+}
+
 .photo {
 	background-repeat: no-repeat;
 	text-align: center;
+	margin-bottom: 10rem;
 }
+
 /* крайний див */
 
 .img-bottom {
@@ -133,6 +137,7 @@ html {
 .second {
 	padding: 3rem;
 	letter-spacing: 0.05rem;
+	margin-top: 15.6rem;
 }
 
 /* футер */
