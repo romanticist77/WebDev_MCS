@@ -75,7 +75,7 @@ html {
 /* Секция 2 */
 
 
-.div {
+.img-container {
 	width: 104rem;
 	display: flex;
 	flex-direction: row;
