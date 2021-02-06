@@ -79,6 +79,7 @@ html {
 	width: 104rem;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 /*разделы с текстом */
@@ -109,7 +110,6 @@ html {
 .type2 {
 	height: 86.3rem;
 	width: 27.9rem;
-	margin: 0 10rem;
 }
 
 .type3 {
