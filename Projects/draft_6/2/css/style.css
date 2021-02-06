@@ -1,0 +1,151 @@
+@import url(reset.css);
+
+.logo-container {
+	height: 140px;
+	width: 1440px;
+	background-color: #FFFFFF;
+	background-image: url(../img/evian.png);
+	background-repeat: no-repeat;
+	background-position: 50px 50px;
+	line-height: 140px;
+	text-align: right;
+	padding-right: 50px;
+	font-family: Arial;
+	font-size: 50px;
+	position: fixed;
+}
+
+.logo-container a {
+	color: #E50043;
+}
+
+.main {
+	height: 2129px;
+	width: 1440px;
+}
+
+.hero-container {
+	padding-top: 140px;
+	height: 950px;
+	width: 1440px;
+	background-image: url(../img/evian_origins_logo.png);
+	background-repeat: no-repeat;
+	background-position: 0px 140px;
+	font-family: Arial;
+	font-size: 100px;
+	color: #E50043;
+	text-align: center;
+	display: flex;
+}
+
+.hero-container h1 {
+	margin: auto;
+}
+
+.info-container {
+	height: 663px;
+	width: 1440px;
+	display: flex;
+	
+}
+
+.info {
+	display: flex;
+	margin: auto;
+}
+
+.info h1 {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px; 
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	padding: 24px;
+	letter-spacing: 0.8px;
+}
+
+.info h1 {
+}
+
+.image-container {
+	height: 863px;
+	width: 1040px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 200px;
+}
+
+.image1 {
+	height: 863px;
+	width: 281px;
+	background-image: url(../img/wang.png); 
+	background-repeat: no-repeat;
+}
+
+.image2 {
+	height: 863px;
+	width: 281px;
+	background-image: url(../img/blue.png); 
+	background-repeat: no-repeat;
+}
+
+.image3 {
+	height: 863px;
+	width: 281px;
+	background-image: url(../img/chiara.png); 
+	background-repeat: no-repeat;
+}
+
+.bottom-info {
+	height: 663px;
+	width: 1440px;
+	display: flex;
+}
+
+/* .img {
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+*/
+
+.info2 {
+	width: 1040px;
+	height: 280px;
+	display: flex;
+	margin: auto;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding-top: 30px;
+	padding-left: 77px;
+	padding-bottom: 30px;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 0.8px;
+	line-height: 29px;
+	white-space: pre;
+}
+
+.info2 h1 {
+	padding-left: 80px;
+	padding-bottom: 30px;
+}
+
+.copyrights {
+	height: 140px;
+	width: 1440px;
+	position: relative;
+	top: 1226px;
+	background-color: #F8BFC7;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 140px;
+	text-align: left;
+	color: #FFFFFF;
+	padding-left: 50px;
+}
