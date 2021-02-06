@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.header {
+	font-family: Times New Roman;
+	font-size: 5rem;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #FFE138;
+	line-height: 16rem;
+}
+
+.columns {
+	width: 90vw;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.column {
+	width: calc((100% - 10rem)/3);
+	border: 1px solid #000000;
+	margin: 7rem 0;
+}
+
+.text {
+	padding: 3rem 3.3rem;
+	font-family: Times New Roman;
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+.text h1 {
+	font-weight: bold;
+	padding-bottom: 2.5rem;
+}
+
+.img1 {
+	background-image: url(../img/Click_Shelf.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150%;
+}
+
+.img2 {
+	background-image: url(../img/Float_Shelf.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150%;
+}
+
+.img3 {
+	background-image: url(../img/Meta_Side_Table.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150%;
+}
+
+
+.footer {
+	font-family: Times New Roman;
+	font-size: 5rem;
+	text-align: center;
+	background-color: #FFE138;
+	line-height: 16rem;
+}
