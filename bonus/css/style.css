@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+.container {
+  cursor: pointer;
+  width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 1s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.placeholder p {
+  padding-left: 10px;
+}
+
+.container:hover .placeholder {
+  opacity: 1;
+}
+
+.description {
+  cursor: pointer;
+  width: 600px;
+  font-family: 'Yusei Magic', sans-serif;
+  line-height: 20px;
+  font-size: 20px;
+  transition-property: opacity, color;
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .title {
+  opacity: 0;
+} */
+
+.paragraph {
+  opacity: 0;
+}
+
+
+.description:hover .paragraph {
+  opacity: 1;
+  color: blue;
+}
+
+.description:hover .title {
+  color: blue;
+}
