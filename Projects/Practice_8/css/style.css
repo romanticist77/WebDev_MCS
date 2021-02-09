@@ -24,7 +24,7 @@ html {
 	display: flex;
 	margin: auto;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items: flex-start;
 }
 
 .column {
