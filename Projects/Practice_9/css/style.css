@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.header {
+	background-color: #0000FF;
+	width: 100vw;
+	font-size: 2.5rem;
+	line-height: 10rem;
+	color: #FFFFFF;
+	padding-left: 3rem;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.flex-container {
+	font-family: Helvetica;
+	font-size: 2.5rem;
+	line-height: 2.875rem;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 90vw;
+	height: 90vh;
+	margin: auto;
+}
+
+.flex-container div {
+	border: 0.5rem solid #000000;
+	height: calc((100% - 16.3rem)/4);
+	width: 33rem;
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+	background-color: #0000FF;
+	width: 100vw;
+	font-size: 2.5rem;
+	line-height: 10rem;
+	color: #FFFFFF;
+	padding-left: 3rem;
+	font-family: Helvetica;
+	font-weight: bold;
+}
