@@ -51,6 +51,7 @@ html {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
+	
 	.flex-container div {
 		width: calc((100% - 2rem)/2);
 		height: calc((100% - 2rem)/2);
