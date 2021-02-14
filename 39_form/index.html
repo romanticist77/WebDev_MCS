@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Boilerplate</title>
+    <meta charset="UTF-8">
+    <meta description="boilerplate code">
+    <meta keywords="boilerplate test">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="page">
+		<form>
+			<div class="column-one">
+				<fieldset class="personal">
+					<label for="fio">ФИО</label>
+					<input type="text" name="fio" placeholder="Иванов Иван">
+					<label for="email">email</label>
+					<input type="email" name="email" placeholder="yo@example.com">
+					<label for="password">password</label>
+					<input type="password" name="password">
+					<label for="birth">Date of birth</label>
+					<input type="date" name="birth">
+				</fieldset>
+			</div>
+			<div class="column-two">
+				<fieldset class="type">
+					<label for="client">Have you been to here before?</label>
+					<input type="radio" name="client" value="yes" checked="true"><span>Yes</span>
+					<input type="radio" name="client" value="no"><span>No</span>
+					<label for="purpose">Why do you write to me?</label>
+					<select name="purpose" id="">
+						<option value="">Feel good</option>
+						<option value="">Feel bad</option>
+					</select>
+				</fieldset>
+				<fieldset class="message">
+					<label for="message">Your message</label>
+					<textarea name="message">Your message</textarea>
+					<input type="checkbox" checked="true"><span>I agree to the terms and conditions</span>
+				</fieldset>
+				<input type="submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
