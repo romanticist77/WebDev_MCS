@@ -1,0 +1,108 @@
+@import url(reset.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.header {
+	font-family: Helvetica;
+	font-size: 2rem;
+	background-color: #F8BFC7;
+	height: 9rem;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	padding: 0 5rem;
+	font-weight: bold;
+}
+
+.header a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu {
+	flex-grow: 1;
+	text-align: right;
+}
+
+.top {
+	background-image: url(../img/background.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 64.3rem;
+	background-color: #336fd1;
+	padding-top: 10rem;
+	position: relative;
+	font-weight: bold;
+}
+
+.button {
+	background-color: #FEB700;
+	border: 0.3rem solid #FFFFFF;
+	border-radius: 3rem;
+	padding: 2rem 3.3rem;
+	color: #FFFFFF;
+	width: 20rem;
+	position: absolute;
+	top: 42.2rem;
+	left: 14rem;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom {
+	background-color: #336fd1;
+	height: 20.1rem;
+	width: 100vw;
+	font-family: Helvetica;
+	font-size: 5rem;
+	color: #FEB700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.footer {
+	font-family: Helvetica;
+	font-size: 2rem;
+	background-color: #F8BFC7;
+	height: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 3rem;
+	padding: 0 5rem;
+	color: #FFFFFF;
+	font-weight: bold;
+}
