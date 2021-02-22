@@ -54,11 +54,10 @@ form {
 	font-family: Helvetica;
 	font-size: 2rem;
 	color: #FFFFFF;
-	padding: 1.4rem 3rem 0rem;
+	padding: 1.4rem 3rem 3rem;
 	position: absolute;
 	top: 9rem;
 	left: 9rem;
-	height: 36.2rem;
 }
 
 label, input {
@@ -71,20 +70,16 @@ input {
     border: none;
     border-bottom: 1px solid #FFFFFF;
 	background-color: #F8BFC7;
-	font-size: 2rem;
-}
-
-input:focus {
-	font-family: Times New Roman;
-	color: #FFFFFF;
-	font-size: 2rem;
-	outline-color: #FFFFFF;
+	
 }
 
 ::placeholder {
 	color: #FFFFFF;
 	opacity: 1;
 }
+
+
+
 
 input[type="submit"] {
 	background-color: #FEB700;
@@ -93,13 +88,30 @@ input[type="submit"] {
 	padding: 2rem 3.3rem;
 	margin: 0 0 0 1.7rem;
 	position: relative;
-	top: 5rem;
+	top: 10rem;
 	color: #FFFFFF;
 	width: 20rem;
 	cursor: pointer;
 	text-align: center;
 	font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bottom {
 	background-color: #336fd1;

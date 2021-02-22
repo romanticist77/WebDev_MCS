@@ -18,7 +18,16 @@
 		</header>
 		<main>
 			<section class="top">
-				<form action="https://formspree.io/f/meqpwwrb" method="post">
+				<form action=”mailto:romanticist77@gmail.com”
+
+
+method=”POST”
+
+
+enctype=”multipart/form-data”
+
+
+name=”EmailForm”>
 					<label for="name">Имя</label>
 					<input type="text" name="name" placeholder="Ира">
 					<label for="city">Город</label>
