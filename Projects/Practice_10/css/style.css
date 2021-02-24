@@ -112,7 +112,7 @@ input[type="submit"] {
 	align-items: center;
 	justify-content: center;
 	font-weight: bold;
-}
+} 
 
 .footer {
 	font-family: Helvetica;
@@ -126,4 +126,8 @@ input[type="submit"] {
 	padding: 0 5rem;
 	color: #FFFFFF;
 	font-weight: bold;
+	position: fixed;
+	top: 93.4rem;
+	left: 0;
+	right: 0;
 }
