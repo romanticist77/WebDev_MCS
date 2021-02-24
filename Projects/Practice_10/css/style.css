@@ -103,7 +103,7 @@ input[type="submit"] {
 
 .bottom {
 	background-color: #336fd1;
-	height: 20.1rem;
+	height: 30vw;
 	width: 100vw;
 	font-family: Helvetica;
 	font-size: 5rem;
@@ -127,7 +127,7 @@ input[type="submit"] {
 	color: #FFFFFF;
 	font-weight: bold;
 	position: fixed;
-	top: 93.4rem;
+	bottom: 0;
 	left: 0;
 	right: 0;
 }
