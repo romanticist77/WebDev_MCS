@@ -1,0 +1,7 @@
+@import url(reset.css);
+
+iframe[src="https://blog.logrocket.com/"] {
+	width: 1080px;
+	height: 760px;
+	border: 1px solid black;
+	}
