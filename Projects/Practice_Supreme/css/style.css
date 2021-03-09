@@ -1,0 +1,57 @@
+@import url(reset.css);
+@font-face {
+	font-family: 'Space Mono';
+	src: url(../SpaceMono-Regular.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100vw;
+}
+
+.header {
+	background-color: #FF0000;
+	width: 28.7rem;
+	font-family: Arial;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 6rem;
+	line-height: 8.2rem;
+	margin: 18.2rem auto 0;
+}
+
+.main {
+	width: 100vw;
+}
+
+.main__time_PRC {
+	text-align: center;
+	margin: 3% 0 0;
+	font-family: Space Mono;
+	font-size: 2rem;
+	font-feature-settings: 'calt' 0, 'liga' 0;
+}
+
+img {
+	float: left;
+	margin: 0 2rem 0 0;
+}
+
+.article {
+	font-family: Space Mono;
+	font-size: 2rem;
+	width: 71.4rem;
+  	margin: 3% auto 0;
+}
+
+.article__text_scrolling {
+}
