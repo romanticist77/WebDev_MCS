@@ -86,4 +86,24 @@ body {
 	background-color: #FF0000;
 	width: 8.6rem;
 	margin-left: calc(48% + 2rem);
+	text-decoration: none;
+}
+
+.footer {
+	width: 91.9rem;
+	font-family:  Space Mono;
+	font-size: 2rem;
+	margin: 12.5rem auto 0;
+
+}
+
+.footer_nav_bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_nav_bar a {
+	color: #000000;
+	text-decoration: none;
 }
