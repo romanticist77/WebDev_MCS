@@ -63,12 +63,8 @@ html {
 	margin: 0 0 0 0;
 }
 
-.main__section_list {
-	
-}
-
 .footer {
-	margin: 5vw 0 0; 
+	margin: 5vw 0 12vw; 
 }
 
 .footer__link_2 {
@@ -79,10 +75,12 @@ html {
 	.header {
 		margin: 11.8rem 0 0;
 	}
+
 	.footer {
 	margin: 7.8rem 0 0; 
 	}
+
 	.main {
 	margin: 3.8rem 0 0;
-}
+	}
 }
