@@ -1,0 +1,79 @@
+@import url(reset.css);
+@font-face {
+	font-family: 'ProximaNova';
+	src: url(../fonts/ProximaNova-Black.ttf);
+	font-family: 'ProximaNova_bold';
+	src: url(../fonts/ProximaNova-Semibold.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: ProximaNova_bold, sans-serif;
+	background-color: #000000;
+}
+
+.header {
+	display: flex;
+	width: 95vw;
+	justify-content: space-between;
+	margin: 4rem auto 0;
+	color: white;
+}
+
+.header__logo {
+	margin: 0 0 0 0;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 54rem;
+
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.lang_bar {
+	font-size: 1.5rem;
+	display: flex;
+}
+
+.lang_bar p {
+	margin: 0 2rem 0 0;
+} 
+
+.lang_bar span {
+	height: 0.55rem;
+	width: 0;
+	transform: rotate(-45deg);
+	border: 1px solid #FFFFFF;
+	position: relative;
+	top: 1rem;
+}
+
+.currency {
+	margin: 3.5vw auto 0;
+	width: 95vw;
+	line-height: 5.6rem;
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+	border: 1px solid red;
+	color: black;
+	font-size: 1.7rem;
+	padding: 0 1vw
+}
+
+/* Proxima Nova,Arial,Helvetica Neue,sans-serif
+
+	
+	/* font-family: ProximaNova, sans-serif; /*
