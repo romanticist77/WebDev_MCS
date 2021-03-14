@@ -4,7 +4,10 @@
 	src: url(../fonts/ProximaNova-Black.ttf);
 	font-family: 'ProximaNova_bold';
 	src: url(../fonts/ProximaNova-Semibold.ttf);
+	font-family: 'PFRegalTextPro';
+	src: url(../fonts/PFRegalTextPro-RegularA.ttf);
 }
+
 
 * {
 	box-sizing: border-box;
@@ -34,13 +37,16 @@ html {
 	display: flex;
 	justify-content: space-between;
 	width: 54rem;
-
 }
 
 .nav a {
 	color: white;
 	text-decoration: none;
 	font-size: 1.5rem;
+}
+
+#header__golden {
+	color: #A37846;
 }
 
 .lang_bar {
@@ -70,10 +76,70 @@ html {
 	border: 1px solid red;
 	color: black;
 	font-size: 1.7rem;
-	padding: 0 1vw
+	padding: 0 1vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.currency__switch {
+	color: #9CA1A9;
+	display: flex;
+	align-items: center;
+	gap: 1.2rem;
+}
+
+
+
+.currency__circle {
+  width: 2rem;
+  height: 2rem;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.currency__rectangle {
+  width: 4.8rem;
+  height: 2.4rem;
+  background: #E6E6E6;
+  border-radius: 2.5rem;
+}
+
+.main {
+	width: 95vw;
+	background-color: #F2F2F2;
+	margin: 1.5rem auto 0;
+	border-radius: 1rem 1rem 0 0;
+	height: 95vw;
+	padding: 6rem 6rem 8.8rem;
+}
+
+.main section {
+	border-radius: 1rem;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+.main__section1 {
+	text-align: center;
+	border: 0.5rem solid #A37846;
+	padding: 4.5rem 0 2.9rem;
+}
+
+.main__headline1 {
+	color: #000000;
+	font-size: 5rem;
+	margin: 0 6.6rem 5.8rem;
+	font-family: PFRegalTextPro;
+}
+
+.main__time {
+	color: #9CA1A9;
+	font-size: 1.5rem;
 }
 
 /* Proxima Nova,Arial,Helvetica Neue,sans-serif
-
+.currency__text {
+	border: 1px solid red;
+}
 	
 	/* font-family: ProximaNova, sans-serif; /*
