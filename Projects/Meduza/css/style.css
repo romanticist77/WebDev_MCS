@@ -54,17 +54,31 @@ html {
 	display: flex;
 }
 
-.lang_bar p {
+.lang_bar a {
 	margin: 0 2rem 0 0;
+	color: #FFFFFF;
+	text-decoration: none;
 } 
 
-.lang_bar span {
+.lang_bar p {
+	margin: 0 2rem 0 0;
+}
+
+.lang_bar__search {
+	width: 2rem;
+  	height: 2rem;
+  	border: 1px solid #FFFFFF;
+  	border-radius: 50%;
+}
+
+.lang_bar__transform {
 	height: 0.55rem;
 	width: 0;
 	transform: rotate(-45deg);
 	border: 1px solid #FFFFFF;
 	position: relative;
-	top: 1rem;
+	top: 1.6rem;
+	left: 1.6rem;
 }
 
 .currency {
@@ -109,14 +123,18 @@ html {
 	background-color: #F2F2F2;
 	margin: 1.5rem auto 0;
 	border-radius: 1rem 1rem 0 0;
-	height: 95vw;
 	padding: 6rem 6rem 8.8rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: space-between;
 }
 
 .main section {
 	border-radius: 1rem;
 	background-color: #FFFFFF;
 	margin: auto;
+	width: 100%;
 }
 
 .main__section1 {
@@ -137,9 +155,66 @@ html {
 	font-size: 1.5rem;
 }
 
+.main__section2 {
+	border: 0.1rem solid #9CA1A9;
+	padding: 3rem;
+	display: flex;
+}
+
+.article {
+	width: 50%;
+}
+
+.main__articles {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3.5rem;
+}
+
+.article__header_bigger, .article__header {
+	font-family: PFRegalTextPro;
+}
+
+.article__header_bigger {
+	font-size: 3.5rem;
+	color: #000000;
+	margin: 0 0 19.4rem;
+}
+
+.article__header {
+	font-size: 2rem;
+}
+
+.article__date {
+	color: #9CA1A9;
+}
+
+.article__mini {
+	width: 45%;
+	height: 17rem;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.article__mini p {
+
+}
+
+
+
+
+
+
 /* Proxima Nova,Arial,Helvetica Neue,sans-serif
 .currency__text {
 	border: 1px solid red;
 }
-	
-	/* font-family: ProximaNova, sans-serif; /*
+	.main__article {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+	/* <img src="img/ellipse.png" alt="loupe">
+	font-family: ProximaNova, sans-serif; /*
