@@ -1,0 +1,128 @@
+@import url(reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+/*=== Logo ===*/
+.logo h1 {
+  margin: 0;
+}
+
+.logo__link {
+  color: #324759;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+/*=== End logo ===*/
+
+/*=== Menu ===*/
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.main-menu__item {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.main-menu__item a {
+  color: #324759;
+  text-decoration: none;
+}
+
+.main-menu__item a:hover {
+  text-decoration: underline;
+  color: #657A8C;
+}
+/*=== End menu ===*/
+
+
+/* Grid */
+.container {
+  display: grid;
+  margin: 0 5rem;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 5rem auto auto auto auto;
+  grid-gap: 2rem 1rem;
+  grid-template-areas: 
+   "logo menu menu"
+  "project1 project2 project3"
+ "project1 project2 project3"
+  "description description2 description3"
+  "footer footer footer" 
+}
+
+.logo {
+  grid-area: logo;
+  align-self: center;
+}
+
+.main-menu {
+  grid-area: menu;
+  /* align-self: center;
+  justify-self: end;
+  */
+  place-self: center end;
+}
+
+.project1 {
+  grid-area: project1;
+}
+
+.project2 {
+  grid-area: project2;
+}
+
+.project3 {
+  grid-area: project3;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.special-offer {
+  grid-area: offer;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  align-self: center;
+}
+
+.special-offer2 {
+  grid-area: offer;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  align-self: center;
+}
+
+.special-offer3 {
+  grid-area: offer;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  align-self: center;
+}
+
+.description {
+  grid-area: description;
+}
+
+.description2 {
+  grid-area: description2;
+}
+
+.description3 {
+  grid-area: description3;
+}
