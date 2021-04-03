@@ -1,0 +1,168 @@
+@import url(reset.css);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Helvetica',sans-serif;
+}
+
+.header {
+	width: 100vw;
+}
+
+.header__container {
+/*	background-color: #FFFFFF; */
+	margin: auto;
+	height: 10.3rem;
+	width: 114.8rem;
+	background-image: url(../img/logo.svg);
+	background-repeat: no-repeat;
+	background-size: 10.8rem;
+	background-position: left center;
+	padding-left: 3.2rem;
+	border: 1px solid red;
+}
+
+
+
+
+
+
+.main {
+	padding: 3.2rem;
+	background-color: #F1EEEE;
+	height: auto;
+	display: flex;
+	width: 100vw;
+}
+
+.main__title {
+	font-size: 5rem;
+	border: 1px solid red;
+	height: 8.3rem;
+	margin: 0 0 7.2rem;
+}
+	
+
+.main__container {
+	padding: 7.2rem 1.8rem 3.6rem;
+	margin: auto;
+}
+
+.main__list {
+	display: grid;
+	grid-template-rows: repeat(2, 44.8rem);
+	grid-template-columns: repeat(3, 36.4rem);
+	grid-gap: 4.5rem 3rem;
+}
+
+.main__card {
+	border: 1px solid red;
+	border-radius: 0.3rem;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 3.6rem 0 0;
+}
+
+.main__card h3 {
+	padding: 0 5.4rem 5.4rem;
+	text-transform: uppercase;
+	font-size: 3.5rem;
+}
+
+.main__card h4 {
+	font-size: 2rem;
+	border-top: 0.3rem solid #FFFFFF;
+	margin: 0 3.6rem;
+	padding-top: 1rem;
+}
+
+.main__card:hover {
+	background-color: #00FF00;
+}
+
+.one {
+	background-image: url(../img/one.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.two {
+	background-image: url(../img/two.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.three {
+	background-image: url(../img/three.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.four {
+	background-image: url(../img/four.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.five {
+	background-image: url(../img/five.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.six {
+	background-image: url(../img/six.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+}
+
+.footer {
+	height: 16rem;
+	width: 100vw;
+	padding: 3.6rem 0 1.8rem;
+}
+
+.footer__container {
+	margin: auto;
+	width: 114.8rem;
+	height: 10.5rem;
+	border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+/*
+<div class="main__card one"></div>
+		<div class="main__card two"></div>
+		<div class="main__card three"></div>
+		<div class="main__card four"></div>
+		<div class="main__card five"></div>
+		<div class="main__card six"></div>
+
+
+
+		/* <li class="main__card seven"></li>
+			<li class="main__card eight"></li>
+			<li class="main__card nine"></li>
+
+			.main__card.title {
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
