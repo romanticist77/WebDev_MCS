@@ -16,6 +16,8 @@ html {
 	color: black;
 }
 
+/* header */
+
 .header {
 	width: 100vw;
 }
@@ -45,6 +47,8 @@ html {
 	border: 1px solid red;
 }
 
+/* main */
+
 .main {
 	padding: 3.2rem;
 	background-color: #F1EEEE;
@@ -52,6 +56,13 @@ html {
 	display: flex;
 	width: 100vw;
 }
+
+.main__container {
+	padding: 7.2rem 1.8rem 3.6rem;
+	margin: auto;
+}
+
+/* dashboard */
 
 .main__dashboard {
 	font-size: 5rem;
@@ -69,6 +80,8 @@ html {
 	padding-top: 0.65rem;
 	display: flex;
 }
+
+/* Inputs */
 	
 .main__search-container input {
 	height: 4.3rem;
@@ -95,6 +108,8 @@ input::after {
   	z-index: 1;
 }
 
+/* Search icon */
+
 .main__search-container_icon {
     position: relative;
     right: 3rem;
@@ -120,11 +135,7 @@ input::after {
     left: 1.2rem;
 }
 
-.main__container {
-	padding: 7.2rem 1.8rem 3.6rem;
-	margin: auto;
-}
-
+/* main list*/
 
 .main__list {
 	display: grid;
@@ -158,6 +169,8 @@ input::after {
 	background-color: #00FF00;
 	cursor: pointer;
 }
+
+/* images */
 
 .one {
 	background-image: url(../img/one.jpg);
@@ -200,6 +213,7 @@ input::after {
 	background-position: bottom;
 	background-size: contain;
 }
+/* footer */
 
 .footer {
 	width: 100vw;
