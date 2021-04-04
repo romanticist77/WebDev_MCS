@@ -11,12 +11,33 @@ html {
 	font-family: 'Helvetica',sans-serif;
 }
 
+.link:hover {
+	cursor: pointer;
+	color: black;
+}
+
 .header {
 	width: 100vw;
 }
 
+.header__nav {
+	margin: 4rem 0 4rem 8rem;
+	border: 1px solid red;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header__nav a {
+	text-decoration: none;
+	font-size: 1.7rem;
+	color: #3333FF;
+}
+
+.header__nav a:hover {
+	font-color: #0000FF;
+}
+
 .header__container {
-/*	background-color: #FFFFFF; */
 	margin: auto;
 	height: 10.3rem;
 	width: 114.8rem;
@@ -28,11 +49,6 @@ html {
 	border: 1px solid red;
 }
 
-
-
-
-
-
 .main {
 	padding: 3.2rem;
 	background-color: #F1EEEE;
@@ -41,18 +57,78 @@ html {
 	width: 100vw;
 }
 
-.main__title {
+.main__dashboard {
 	font-size: 5rem;
 	border: 1px solid red;
 	height: 8.3rem;
 	margin: 0 0 7.2rem;
 }
+
+.main__form-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__search-container {
+	padding-top: 0.65rem;
+	display: flex;
+}
 	
+.main__search-container input {
+	height: 4.3rem;
+	width: 36rem;
+	padding-left: 1.5rem;
+	border-color: transparent;
+	font-size: 2rem;
+}
+
+input:focus {
+	color: black;
+	font-size: 2rem;
+	outline-color: #0000FF;
+	outline-width: 0;
+	border: 0.01rem solid #0000FF;
+	padding-left: 1.65rem;
+}
+
+input::after {
+	width: 2rem;
+  	height: 2rem;
+  	border: 1px solid #000000;
+  	border-radius: 50%;
+  	z-index: 1;
+}
+
+.main__search-container_icon {
+    position: relative;
+    right: 3rem;
+    top: 1.5rem;
+    transform: scale(var(--ggs,1));
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 0.3rem solid;
+    border-radius: 100%;
+    margin-left: -0.4rem;
+    margin-top: -0.4rem;
+}
+.main__search-container_icon::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 0.3rem;
+    width: 0.25rem;
+    height: 0.8rem;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 1.1rem;
+    left: 1.2rem;
+}
 
 .main__container {
 	padding: 7.2rem 1.8rem 3.6rem;
 	margin: auto;
 }
+
 
 .main__list {
 	display: grid;
@@ -84,6 +160,7 @@ html {
 
 .main__card:hover {
 	background-color: #00FF00;
+	cursor: pointer;
 }
 
 .one {
@@ -129,9 +206,10 @@ html {
 }
 
 .footer {
-	height: 16rem;
 	width: 100vw;
 	padding: 3.6rem 0 1.8rem;
+	color: #3333FF;
+	font-size: 1.575rem;
 }
 
 .footer__container {
@@ -139,9 +217,17 @@ html {
 	width: 114.8rem;
 	height: 10.5rem;
 	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 1.8rem;
 }
 
-
+.footer__container a {
+	text-decoration: none;
+	color: #3333FF;
+	font-size: 1.35rem;
+}
 
 
 
@@ -166,3 +252,9 @@ html {
 	grid-column: 1/4;
 	grid-row: 1/2;
 }
+::placeholder {
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+/*	background-color: #FFFFFF; */
