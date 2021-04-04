@@ -33,10 +33,6 @@ html {
 	color: #3333FF;
 }
 
-.header__nav a:hover {
-	font-color: #0000FF;
-}
-
 .header__container {
 	margin: auto;
 	height: 10.3rem;
