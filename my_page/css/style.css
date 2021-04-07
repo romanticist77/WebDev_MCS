@@ -145,11 +145,12 @@ input::after {
 }
 
 .main__card {
-	border: 1px solid red;
-	border-radius: 0.3rem;
+	border-radius: 0.5rem;
 	background-color: #FFFFFF;
 	text-align: center;
 	padding: 3.6rem 0 0;
+	text-shadow: 0 0 0.1rem transparent;
+	transition: transform 200ms ease,background-color 200ms ease,box-shadow 200ms ease;
 }
 
 .main__card h3 {
@@ -166,8 +167,10 @@ input::after {
 }
 
 .main__card:hover {
-	background-color: #00FF00;
 	cursor: pointer;
+	transform: translate(0,-2rem);
+	background-color: #00FF00;
+	box-shadow: 0.2rem 0.2rem 2rem 1rem #ccc;
 }
 
 /* images */
