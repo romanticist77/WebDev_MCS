@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Boilerplate</title>
+    <title>My_page</title>
     <meta charset="UTF-8">
     <meta description="boilerplate code">
     <meta keywords="boilerplate test">
@@ -12,31 +12,33 @@
 	<header class="header">
 		<div class="header__container">
 			<nav class="header__nav">
-				<a class="link" href="#">
-					КАМРАН А
-					<img src="" alt="">
-				</a>
-				<ul></ul>
+				<form>
+					<label class="form__label" for="country">КАМРАН А</label>
+					
+				    <select id="country" name="country">
+				    	<option value="0"></option>
+				        <option value="australia">Australia</option>
+				        <option value="canada">Canada</option>
+				        <option value="usa">USA</option>
+			        </select>
+				</form>
 			</nav>
 		</div>
 	</header>
 	<main class="main">
 		<div class="main__container">
 			<aside class="main__dashboard">
-				<div>
-					<form lass="main__form" action="#">
-						<div class="main__form-container">
-							<h1>Мои курсы</h1>
-							<div class="main__search">
-								<label class="main__search-container" for="search">
-									<input type="text" placeholder="Поиск">
-									<i class="main__search-container_icon"></i>
-								</label>
-
-							</div>
+				<form class="main__form" action="#">
+					<div class="main__form-container">
+						<h1>Мои курсы</h1>
+						<div class="main__search">
+							<label class="main__search-container" for="search">
+								<input type="text" placeholder="Поиск">
+								<i class="main__search-container_icon"></i>
+							</label>
 						</div>
-					</form>
-				</div>
+					</div>
+				</form>
 			</aside>
 			<ul class="main__list">
 				<li class="main__card one">

@@ -11,19 +11,47 @@ html {
 	font-family: 'Helvetica',sans-serif;
 }
 
-.link:hover {
+.link, .form__label:hover {
 	cursor: pointer;
 	color: black;
 }
 
-/* header */
-
-.header {
+body {
 	width: 100vw;
 }
 
+.avatar {
+	height: 3.2rem;
+}
+
+.form__label {
+	color: #3333FF;
+	font-size: 1.7rem;
+}
+	
+
+#country {
+	height: 3.2rem;
+	border-color: transparent;
+	background-image: url(../img/avatar.png);
+	background-repeat: no-repeat;
+	background-size: 3.2rem 3.2rem;
+	background-position: center;
+}
+
+#country:focus {
+	outline-color: transparent;
+}
+
+
+
+/* header */
+
+.header {
+	width: 100%;
+}
+
 .header__nav {
-	margin: 4rem 0 4rem 8rem;
 	border: 1px solid red;
 	display: flex;
 	justify-content: flex-end;
@@ -33,6 +61,8 @@ html {
 	text-decoration: none;
 	font-size: 1.7rem;
 	color: #3333FF;
+	border: 1px solid red;
+	height: 3.2rem;
 }
 
 .header__container {
@@ -45,7 +75,7 @@ html {
 	background-position: left center;
 	padding-left: 3.2rem;
 	border: 1px solid red;
-}
+} 
 
 /* main */
 
@@ -54,7 +84,7 @@ html {
 	background-color: #F1EEEE;
 	height: auto;
 	display: flex;
-	width: 100vw;
+	width: 100%;
 }
 
 .main__container {
@@ -91,16 +121,21 @@ html {
 	font-size: 2rem;
 }
 
-input:focus {
-	color: black;
-	font-size: 2rem;
+.main__search-container input:hover {
 	outline-color: #0000FF;
-	outline-width: 0;
 	border: 0.01rem solid #0000FF;
 	padding-left: 1.65rem;
 }
 
-input::after {
+.main__search-container input:focus {
+	color: black;
+	font-size: 2rem;
+	outline-color: #0000FF;
+	border: 0.01rem solid #0000FF;
+	padding-left: 1.65rem;
+}
+
+.main__search-container input::after {
 	width: 2rem;
   	height: 2rem;
   	border: 1px solid #000000;
@@ -219,7 +254,7 @@ input::after {
 /* footer */
 
 .footer {
-	width: 100vw;
+	width: 100%;
 	padding: 3.6rem 0 1.8rem;
 	color: #3333FF;
 	font-size: 1.575rem;
@@ -271,3 +306,8 @@ input::after {
 }
 
 /*	background-color: #FFFFFF; */
+
+
+	/* margin: 4rem 0 4rem 8rem;
+
+				<a class="link" href="#">КАМРАН А</a>
