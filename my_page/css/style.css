@@ -11,38 +11,18 @@ html {
 	font-family: 'Helvetica',sans-serif;
 }
 
-.link, .form__label:hover {
+.link:hover {
 	cursor: pointer;
 	color: black;
+}
+
+.link {
+	transition: all 200ms ease;
 }
 
 body {
 	width: 100vw;
 }
-
-.avatar {
-	height: 3.2rem;
-}
-
-.form__label {
-	color: #3333FF;
-	font-size: 1.7rem;
-}
-	
-
-#country {
-	height: 3.2rem;
-	border-color: transparent;
-	background-image: url(../img/avatar.png);
-	background-repeat: no-repeat;
-	background-size: 3.2rem 3.2rem;
-	background-position: center;
-}
-
-#country:focus {
-	outline-color: transparent;
-}
-
 
 
 /* header */
@@ -51,10 +31,28 @@ body {
 	width: 100%;
 }
 
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	height: 10.3rem;
+	width: 114.8rem;
+} 
+
+.header__logo {
+	width: 10.8rem;
+	height: 2.478rem;
+	align-self: center;
+}
+
+
+/* hedaer nav */
+
 .header__nav {
-	border: 1px solid red;
 	display: flex;
 	justify-content: flex-end;
+	align-self: center;
 }
 
 .header__nav a {
@@ -65,17 +63,37 @@ body {
 	height: 3.2rem;
 }
 
-.header__container {
-	margin: auto;
-	height: 10.3rem;
-	width: 114.8rem;
-	background-image: url(../img/logo.svg);
+/* hedaer form */
+
+.form__label {
+	color: #3333FF;
+	font-size: 1.7rem;
+	display: inline-block;
+	position: relative;
+	left: 14rem;
+}
+
+
+.form__select {
+	height: 3.2rem;
+	width: 20rem;
+	background-image: url(../img/avatar.png);
 	background-repeat: no-repeat;
-	background-size: 10.8rem;
-	background-position: left center;
-	padding-left: 3.2rem;
-	border: 1px solid red;
-} 
+	background-size: 3.2rem 3.2rem;
+	background-position: 14.5rem center;
+	border-color: transparent;
+}
+
+.form__select:hover {
+	cursor: pointer;
+}
+
+.form__select:focus {
+	font-size: 1.7rem;
+	color: #3333FF;
+	padding: 0.5rem;
+	outline-color: transparent;
+}
 
 /* main */
 
@@ -96,7 +114,6 @@ body {
 
 .main__dashboard {
 	font-size: 5rem;
-	border: 1px solid red;
 	height: 8.3rem;
 	margin: 0 0 7.2rem;
 }
@@ -119,6 +136,7 @@ body {
 	padding-left: 1.5rem;
 	border-color: transparent;
 	font-size: 2rem;
+	transition: border-color 200ms ease,outline 200ms ease;
 }
 
 .main__search-container input:hover {
@@ -264,7 +282,6 @@ body {
 	margin: auto;
 	width: 114.8rem;
 	height: 10.5rem;
-	border: 1px solid red;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -311,3 +328,8 @@ body {
 	/* margin: 4rem 0 4rem 8rem;
 
 				<a class="link" href="#">КАМРАН А</a>
+
+				/* background-image: url(../img/logo.svg);
+	background-repeat: no-repeat;
+	background-size: 10.8rem;
+	background-position: left center;*/
